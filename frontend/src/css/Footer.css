@@ -1,6 +1,15 @@
+footer{
+    background-color: limegreen;
+}
+
+.big{
+    font-size: medium;
+}
+
 .list{
     list-style: none;
 }
+
 
 .images{
     display: flex;
@@ -8,9 +17,13 @@
 }
 
 .icon{
-    width: 10%;
-    height: 10%;
     margin: 4%;
+    padding: 1px;
+}
+
+.icon:hover{
+    background-color: white;
+    border-radius: 45%;
 }
 
 .listel{
@@ -24,5 +37,16 @@
 }
 
 .link:hover{
-    
+    text-decoration: underline;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.down{
+    padding-top: 4%;
 }
