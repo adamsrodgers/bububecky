@@ -14,18 +14,18 @@ function Footer()
                     <div className="row">
                         <div className="col-sm">
                             <ul className="list">
-                                <li className="listel"><p className="hov"><a href="/Home" className="link ">Home</a></p></li>
-                                <li className="listel"><p><a href="/Products" className="link">Products</a></p></li>
-                                <li className="listel"><p><a href="/About" className="link">About</a></p></li>
+                                <li className="listel"><a href="/Home" className="link ">Home</a></li>
+                                <li className="listel"><a href="/Products" className="link">Products</a></li>
+                                <li className="listel"><a href="/About" className="link">About</a></li>
                             </ul>  
                         </div>
                         <div className="col-sm">
-                            <p className="center">column 2</p>
+                            <div className="center">column 2</div>
                              
                         </div>
                         <div className="col-sm">
-                            <div> 
-                                <p className="down">Follow us on social media</p>
+                            <div className="down"> 
+                                <div>Follow us on social media</div>
                             <div className="images">
                                 <a href="/facebook" className="icon"><img src={facebook}  width="40" height="40"/></a>
                                 <a href="/insta" className="icon"><img src={instagram}  width="40" height="40"/></a>
@@ -37,7 +37,7 @@ function Footer()
                 <Container>
                     <Row>
                         <Col className="text-center py-3">
-                           <p>copyright &copy;2023 bububeckys sauces</p> 
+                           copyright &copy;2023 bububeckys sauces 
                         </Col>
                     </Row>
                 </Container>
