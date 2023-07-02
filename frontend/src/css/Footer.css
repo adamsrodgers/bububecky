@@ -17,7 +17,7 @@ footer{
 }
 
 .icon{
-    margin: 4%;
+    margin: 6%;
     padding: 1px;
 }
 
@@ -42,11 +42,13 @@ footer{
 
 .center{
     display: flex;
+    flex-direction: column;
+    text-align: center;
     align-items: center;
     justify-content: center;
     height: 100%;
 }
 
-.down{
-    padding-top: 4%;
+.black{
+    color: black;
 }

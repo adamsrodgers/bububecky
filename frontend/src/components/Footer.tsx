@@ -24,8 +24,8 @@ function Footer()
                              
                         </div>
                         <div className="col-sm">
-                            <div className="down"> 
-                                <div>Follow us on social media</div>
+                            <div className="center"> 
+                                <div className="black">Follow us on social media</div>
                             <div className="images">
                                 <a href="/facebook" className="icon"><img src={facebook}  width="40" height="40"/></a>
                                 <a href="/insta" className="icon"><img src={instagram}  width="40" height="40"/></a>
