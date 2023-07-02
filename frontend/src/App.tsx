@@ -2,14 +2,14 @@ import React from 'react';
 //import logo from './logo.svg';
 import './App.css';
 import Footer from './components/Footer';
-import Navbar from './components/Navbar';
+import Header from './components/Header';
 
 function App() {
   return (
     <>
-      <Navbar />
+      <Header />
       <main>
-        <h1>Ice cold</h1>
+        Ice cold
       </main>
       <Footer />
     </>
