@@ -12,7 +12,7 @@ function Footer()
             <footer>
                 <Container className="text-center big">
                     <div className="row">
-                        <div className="col-sm">
+                        <div className="col-sm text-center">
                             <ul className="list">
                                 <li className="listel"><a href="/Home" className="link ">Home</a></li>
                                 <li className="listel"><a href="/Products" className="link">Products</a></li>
@@ -23,7 +23,7 @@ function Footer()
                             <div className="center">column 2</div>
                              
                         </div>
-                        <div className="col-sm">
+                        <div className="col-sm text-center">
                             <div className="center"> 
                                 <div className="black">Follow us on social media</div>
                             <div className="images">

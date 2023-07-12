@@ -3,14 +3,13 @@ import React from 'react';
 import './App.css';
 import Footer from './components/Footer';
 import Header from './components/Header';
+import ProductScreen from './screens/ProductScreen';
 
 function App() {
   return (
     <>
       <Header />
-      <main>
-        Ice cold
-      </main>
+        <ProductScreen />
       <Footer />
     </>
   );

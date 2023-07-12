@@ -5,3 +5,18 @@
 .right{
     margin-right: 5%;
 }
+
+.left{
+    left: 0%;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 995px) {
+    .desktop{
+        display: none!important;
+    }
+    
+}
