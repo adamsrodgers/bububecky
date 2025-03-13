@@ -27,8 +27,8 @@ function Footer()
                             <div className="center"> 
                                 <div className="black">Follow us on social media</div>
                             <div className="images">
-                                <a href="/facebook" className="icon"><img src={facebook}  width="40" height="40"/></a>
-                                <a href="/insta" className="icon"><img src={instagram}  width="40" height="40"/></a>
+                                <a href="/facebook" className="icon"><img src={facebook} alt="facebook" width="40" height="40"/></a>
+                                <a href="/insta" className="icon"><img src={instagram} alt="instagram" width="40" height="40"/></a>
                             </div>
                             </div>
                         </div>
@@ -37,7 +37,7 @@ function Footer()
                 <Container>
                     <Row>
                         <Col className="text-center py-3">
-                           copyright &copy;2023 bububeckys sauces 
+                           copyright &copy;2023 bububeckys sauces and more
                         </Col>
                     </Row>
                 </Container>

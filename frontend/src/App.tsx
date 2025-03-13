@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <Header />
-        <ProductScreen />
+      <ProductScreen />
       <Footer />
     </>
   );
